@@ -531,6 +531,7 @@ input::placeholder {
   color: var(--color-text);
   border-radius: 0 10px 10px 0;
 }
+
 /* media */
 
 @media screen and (max-width: 1150px) {
