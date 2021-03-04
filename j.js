@@ -62,3 +62,6 @@ document.getElementById("pink").addEventListener("click", () => {
 document.getElementById("blue").addEventListener("click", () => {
   document.documentElement.style.setProperty("--color-othor", "#00009c");
 });
+document.getElementById("red").addEventListener("click", () => {
+  document.documentElement.style.setProperty("--color-othor", "#bb0000");
+});

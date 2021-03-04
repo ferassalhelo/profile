@@ -491,7 +491,7 @@ input::placeholder {
   opacity: 1;
 }
 .change:hover .colors {
-  width: 150px;
+  width: 170px;
   transition: all 1s;
 }
 .colors {
@@ -520,6 +520,9 @@ input::placeholder {
 }
 .blue {
   background-color: #00009c;
+}
+.red {
+  background-color: #bb0000;
 }
 .option {
   padding: 5px;
