@@ -50,7 +50,25 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--font-family);
+
   /* perspective: 2000px; */
+}
+.lang {
+  position: absolute;
+  top: .5vh;
+  right: .2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 0 20px 20px;
+  background-color: var(--color-othor);
+  color: var(--color-text);
+  text-decoration: none;
+  text-align: center;
+  opacity: .6;
+
+}
+.lang:hover{
+  opacity: 1;
 }
 ::-webkit-scrollbar {
   width: 20px;
